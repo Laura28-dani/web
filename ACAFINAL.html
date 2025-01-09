@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasión por correr</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header class="Principal">
+        <h1>Pasión por correr</h1>
+        <h2>Corre, Vive y sueña</h2>
+        <nav id="navegación">
+            <ul>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#tips">Consejos</a></li>
+                <li><a href="#Comunidad">Únete a la Comunidad</a></li>
+                <li><a href="#galeria">Galería</a></li> 
+                <li><a href="#eventos">Eventos</a></li> 
+                <li><a href="#entrenamiento">Plan de Entrenamiento</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main class="Secciones">
+
+        <section id="beneficios">
+            <h2>¿Por qué correr?</h2>
+            <p>Correr no solo es una forma de ejercicio, es una actividad que puede transformar tu vida de muchas maneras. Descubre cómo esta práctica puede impactar positivamente tu salud física, mental y emocional:</p>
+            <ul>
+                <li><strong>Mejora tu salud cardiovascular:</strong> Al correr regularmente, el corazón se fortalece, lo que permite bombear sangre de manera más eficiente...</li>
+                <br>
+                <li><strong>Ayuda a mantener un peso saludable:</strong> Correr es una de las actividades físicas más eficaces para quemar calorías...</li>
+                <br>
+                <li><strong>Reduce el estrés y mejora la salud mental:</strong> Al correr, el cuerpo libera endorfinas, también conocidas como las "hormonas de la felicidad"...</li>
+                <br>
+                <li><strong>Fortalece músculos y articulaciones:</strong> Aunque se considera un ejercicio de bajo costo, correr trabaja una amplia gama de músculos...</li>
+                <br>
+                <li><strong>Promueve una sensación de logro personal:</strong> Cada paso que das mientras corres es una victoria...</li>
+            </ul>
+        </section>
+
+      <section id="galeria"></section>
+
+      <h2>Galería</h2>
+      <div class="galeria">
+          <div class="thumbnail" onclick="changeImage('runner1.jpg')">
+              <img src="runner1.jpg" alt="Persona corriendo amanecer">
+          </div>
+          <div class="thumbnail" onclick="changeImage('runner2.jpg')">
+              <img src="runner2.jpg" alt="Personas maratón">
+          </div>
+          <div class="thumbnail" onclick="changeImage('runner3.jpg')">
+              <img src="runner3.jpg" alt="Corriendo feliz">
+          </div>
+          <div class="thumbnail" onclick="changeImage('runner4.jpg')">
+              <img src="runner4.jpg" alt="Maratón Bogotá">
+          </div>
+          <div class="thumbnail" onclick="changeImage('runner5.jpg')">
+              <img src="runner5.jpg" alt="Pasión corredores">
+          </div>
+          <div class="thumbnail" onclick="changeImage('runner7.jpg')">
+              <img src="runner7.jpg" alt="Correr con tu bebé">
+          </div>
+      </div>
+    
+    <div id="main-image-container">
+        <img src="runner.jpg" alt="Imagen principal" id="main-image">
+       
+    </div>
+</section>
+
+        <aside class="Tablas">
+            <section id="tips">
+                <h2>Consejos para Corredores</h2>
+                <p>Para disfrutar al máximo de esta actividad y garantizar una experiencia segura y placentera, ten en cuenta los siguientes consejos:</p>
+                <table border="2">
+                    <tr>
+                        <th>Consejo</th>
+                        <th>Descripción</th>
+                    </tr>
+                    <tr>
+                        <td>Calentamiento</td>
+                        <td>Dedica al menos 10 minutos a realizar ejercicios de movilidad articular y estiramientos dinámicos...</td>
+                    </tr>
+                    <tr>
+                        <td>Hidratación</td>
+                        <td>Mantén tu cuerpo hidratado antes, durante y después de correr...</td>
+                    </tr>
+                    <tr>
+                        <td>Progresión</td>
+                        <td>Evita aumentar la distancia o intensidad de tus carreras de forma abrupta...</td>
+                    </tr>
+                    <tr>
+                        <td>Descanso</td>
+                        <td>El descanso es tan importante como el entrenamiento. Asegúrate de incluir días de recuperación...</td>
+                    </tr>
+                </table>
+                <br>
+                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                    <img src="tips2.jpg" alt="Botella de agua y zapatillas de correr" style="width: 45%; border-radius: 8px;">
+                </div>
+            </section>
+
+            <section id="datos-curiosos">
+              <h3>Datos Curiosos sobre Correr</h3>
+              <button id="toggle-info-btn">Mostrar más</button>
+              <div id="info-adicional" style="display: none;">
+                  <p>
+                      Correr es una de las actividades físicas más antiguas que existen. Desde la antigüedad, los humanos han utilizado esta forma de transporte no solo para sobrevivir, sino también para competir. 
+                  </p>
+                  <p>
+                      ¿Sabías que el récord mundial de maratón lo tiene Eliud Kipchoge con un tiempo de 2:01:09? Este logro se alcanzó en el Maratón de Berlín en 2022, y fue posible gracias a una combinación de entrenamiento, nutrición y tecnología avanzada en calzado.
+                  </p>
+                  <p>
+                      Más allá de los récords, correr tiene increíbles beneficios para la salud:
+                  </p>
+                  <ul>
+                      <li>Fortalece el corazón y reduce el riesgo de enfermedades cardiovasculares.</li>
+                      <li>Mejora la salud mental al liberar endorfinas, también conocidas como "hormonas de la felicidad".</li>
+                      <li>Ayuda a combatir el insomnio y mejora la calidad del sueño.</li>
+                      <li>Es un deporte accesible: solo necesitas unas zapatillas y motivación.</li>
+                  </ul>
+                  <p>
+                      Otro dato curioso es que correr largas distancias puede mejorar la plasticidad cerebral, lo que significa que tu cerebro se vuelve más adaptable y puede fortalecer la memoria.
+                  </p>
+                  <p>
+                      Además, ¡los corredores suelen vivir más tiempo! Según estudios, las personas que corren regularmente tienen una mayor expectativa de vida que aquellas que no lo hacen.
+                  </p>
+              </div>
+          </section>
+
+            <section id="Comunidad">
+                <h2>Únete a la Comunidad</h2>
+                <p>¿Te apasiona correr? Únete a nuestra comunidad para compartir tus logros, aprender de otros y encontrar motivación constante...</p>
+                <div class="Tablas">
+                    <table border="3">
+                        <thead>
+                            <tr>
+                                <th>Día</th>
+                                <th>Actividad</th>
+                                <th>Duración</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lunes</td>
+                                <td>Trotes suaves</td>
+                                <td>30 minutos</td>
+                            </tr>
+                            <tr>
+                                <td>Martes</td>
+                                <td>Intervalos (correr y caminar)</td>
+                                <td>40 minutos</td>
+                            </tr>
+                            <tr>
+                                <td>Miércoles</td>
+                                <td>Descanso o yoga</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Jueves</td>
+                                <td>Entrenamiento de resistencia</td>
+                                <td>45 minutos</td>
+                            </tr>
+                            <tr>
+                                <td>Viernes</td>
+                                <td>Trotes moderados</td>
+                                <td>30 minutos</td>
+                            </tr>
+                            <tr>
+                                <td>Sábado</td>
+                                <td>Carrera larga</td>
+                                <td>60 minutos</td>
+                            </tr>
+                            <tr>
+                                <td>Domingo</td>
+                                <td>Descanso</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <form action="/submit" method="post">
+                    <ul>
+                        <li><a href="https://cordilleratrail.com/" target="_blank">Carrera Salto de Taquendama</a></li>
+                        <li><a href="https://es.wikiloc.com/rutas-carrera/las-baldias-47318331" target="_blank">Carrera Baldias</a></li>
+                    </ul>
+
+                    <section id="entrenamiento">
+                      <h2>Plan de Entrenamiento</h2>
+                      <p>Si estás buscando un entrenamiento más estructurado, sigue nuestro plan de entrenamiento que te ayudará a mejorar tu resistencia y tiempos. ¡Haz crecer tu pasión por correr!</p>
+                      <div class="entrenamiento-plan">
+                          <h3>Semana 1-4: Preparación básica</h3>
+                          <p>En estas primeras semanas, nos enfocaremos en construir resistencia. Realiza trotes suaves, intercalados con caminatas, para aumentar la distancia gradualmente.</p>
+                          <h3>Semana 5-8: Mejora de velocidad</h3>
+                          <p>Comienza a realizar intervalos de carrera más rápidos, alternados con caminatas. Esto mejorará tu capacidad de acelerar y recuperar rápidamente.</p>
+                          <h3>Semana 9-12: Consolidación y carrera larga</h3>
+                          <p>Enfócate en mejorar tu ritmo en carreras largas. Estas semanas son clave para construir resistencia y obtener tiempos más rápidos en carreras largas.</p>
+                      </div>
+                  </section>
+                    <br><label for="NOMBRE">Nombres y apellidos:</label>
+                    <input type="text" id="NOMBRE" name="NOMBRE" placeholder="Ejemplo: Juan Pérez" required>
+                    <br>
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" name="email" placeholder="Ejemplo: correo@dominio.com" required>
+                    <br>
+                    <label for="Fech_Nac">Fecha de nacimiento:</label>
+                    <input type="date" id="Fech_Nac" name="Fech_Nac" required>
+                    <br>
+                    <label for="Telefono">Teléfono:</label>
+                    <input type="tel" id="Telefono" name="Telefono" placeholder="123-456-7890">
+                    <br>
+                    <fieldset>
+                        <legend>Género:</legend>
+                        <input type="radio" id="FEMENINO" name="GENERO" value="Femenino" required>
+                        <label for="FEMENINO">Femenino</label>
+                        <input type="radio" id="MASCULINO" name="GENERO" value="Masculino">
+                        <label for="MASCULINO">Masculino</label>
+                        <input type="radio" id="OTRO" name="GENERO" value="Otro">
+                        <label for="OTRO">Otro</label>
+                        <br>
+                        <button id="submit-comment-btn">Unirme</button><br>
+                    </fieldset>
+                </form>
+            </section>
+        </aside>
+
+        <section id="eventos">
+          <h2>Próximos Eventos</h2>
+          <p>Participa en nuestras emocionantes carreras y eventos. ¡Una excelente oportunidad para poner a prueba tus habilidades y disfrutar de la experiencia!</p>
+          <ul>
+              <li><strong>Maratón de la Ciudad</strong> - 10 de febrero, 2025</li>
+              <li><strong>5K Noche Brillante</strong> - 20 de marzo, 2025</li>
+              <li><strong>Carrera de Obstáculos</strong> - 5 de abril, 2025</li>
+              <li><strong>Ultra Maratón de Montaña</strong> - 15 de mayo, 2025</li>
+          </ul>
+      </section>
+
+        
+
+        
+
+        <section class="comentarios">
+          <h3>Comentarios</h3>
+          <textarea id="comment-input" placeholder="Deja tu comentario..."></textarea>
+          <button id="submit-comment-btn">Enviar comentario</button>
+          <div id="comments-container"></div>
+      </section>
+    </main>
+
+    <footer class="Pie">
+        <p>&copy; 2025 Corre, Vive, Sueña. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scrip.js"></script>
+
+</body>
+</html>
